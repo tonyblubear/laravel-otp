@@ -1,0 +1,38 @@
+{
+    "name": "blubear/laravel-otp",
+    "description": "Package to generate OTP codes in Laravel applications",
+    "type": "library",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0",
+        "phpunit/phpunit": "^10.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Blubear\\LaravelOtp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anthony Medina",
+            "email": "tonym@blubear.io",
+            "homepage": "https://github.com/tony98ms",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Blubear\\LaravelOtp\\LaravelOptProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
