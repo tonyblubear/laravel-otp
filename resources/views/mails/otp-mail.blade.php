@@ -343,7 +343,7 @@
                     <!-- START FOOTER -->
                     <div class="footer">
                         <div style="text-align:center;">
-                            <p style="color:#767e85; font-size:11px;">Enviado desde 1001carros.com</p>
+                            <p style="color:#767e85; font-size:11px;">Enviado desde {{ config('app.name') }}</p>
                         </div>
                     </div>
                     <!-- END FOOTER -->
